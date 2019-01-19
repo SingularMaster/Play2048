@@ -39,7 +39,7 @@ def is_natural(hand):  # Is this hand a natural blackjack?
     return sorted(hand) == [1, 10]
 
 
-class BlackjackEnv(gym.Env):
+class Game2048Env(gym.Env):
     """Simple Game2048 environment
     """
     def __init__(self, natural=False):
